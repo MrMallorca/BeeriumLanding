@@ -1,0 +1,64 @@
+body{
+    margin:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.hero
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+.hero .mainClaim{
+    font-family: "Big Shoulders Stencil", sans-serif;
+    color:aliceblue;
+    font-size: clamp(1rem, 12vw, 20rem);
+    letter-spacing: -0.02em;
+    line-height: 1em;
+}
+
+.hero .secondClaim{
+    font-family: "Big Shoulders Stencil", sans-serif;
+    color:aliceblue;
+    font-size: 3em;
+    font-size: clamp(1rem, 6vw, 20rem);
+    letter-spacing: -0.02em;
+    line-height: 1em;
+}
+
+.hero .title{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 5vw;
+}
+
+.hero .subtitle{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 5vw;
+}
+
+
+
+section{
+    width: 100vw;
+    height: 50vh;
+}
+
+.mono{
+    background-color: violet;
+}
+
+.monstruo{
+    background-color: blueviolet;
+}
+
+.team{
+    background-color: red;
+}
