@@ -48,21 +48,44 @@ h1,h2,h3,h4,h5,h6{
 
 section{
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
+    display: flex;
 }
 
-.mono{
+.characterSection{
+    width: 20vw;
+    height: 100%;
+    
+}
+
+.game{
     background-color: violet;
 }
 
-.monstruo{
+.characters{
     background-color: blueviolet;
 }
 
-.team{
+.naife{
+    background-color: white;
+}
+
+.diana{
+    background-color: black;
+}
+
+.oxy{
     background-color: red;
 }
 
+.dai{
+    background-color: yellow;
+}
 
+.tempus{
+    background-color: blue;
+}
 
-
+.team{
+    background-color: cadetblue;
+}
