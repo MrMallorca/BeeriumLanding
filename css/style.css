@@ -44,6 +44,10 @@ h1,h2,h3,h4,h5,h6{
     padding-top: 5vw;
 }
 
+.AboutUs{    
+    width: 100vw;
+    height: 33%;
+}
 
 section{
     width: 100vw;
@@ -102,12 +106,18 @@ section{
     background-color: cadetblue;
 }
 
+.video{
+    width: 560vw;
+    height: 100vh; 
+}
+
+/* =======
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-}
+} */
 .hero
 {
     height: 100vh;
