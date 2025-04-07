@@ -74,6 +74,7 @@ section{
     background-color: black;
 }
 
+
 .game{
     background-color: violet;
 }
@@ -106,9 +107,10 @@ section{
     background-color: cadetblue;
 }
 
+
 .video{
-    width: 560vw;
-    height: 100vh; 
+    width: 100vw;
+    height: 100vh;
 }
 
 /* =======
@@ -118,6 +120,7 @@ section{
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 } */
+
 .hero
 {
     height: 100vh;
@@ -181,4 +184,4 @@ button
 button:hover
 {
     transform: scale(1.3);
-}
+    }
