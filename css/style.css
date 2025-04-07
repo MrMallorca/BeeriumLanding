@@ -6,11 +6,33 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 
+.subsection {
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #eeeeee; /* Puedes cambiar a algo más estilizado */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.subsection h2 {
+    font-family: 'Big Shoulders Stencil', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.subsection p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+
+
 .hero
 {
-    width: 100vw;
-    height: 100vh;
-    background-color: blue;
+    width: 50vw;
+    height: 50vh;
 }
 
 .hero .mainClaim{
@@ -19,6 +41,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: clamp(1rem, 12vw, 20rem);
     letter-spacing: -0.02em;
     line-height: 1em;
+    text-align: center;
 }
 
 .hero .secondClaim{
