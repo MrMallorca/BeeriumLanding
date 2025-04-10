@@ -40,8 +40,6 @@ h1,h2,h3,h4,h5,h6{
     color: #333;
 }
 
-
-
 .hero
 {
     width: 50vw;
@@ -221,4 +219,9 @@ button
 button:hover
 {
     transform: scale(1.3);
-    }
+}
+
+img {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
