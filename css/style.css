@@ -16,6 +16,19 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
 
+.sectiontitle
+{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+}
+.sectionsubtitle
+{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+}
+
 .subsection h2 {
     font-family: 'Big Shoulders Stencil', sans-serif;
     font-size: 2rem;
@@ -36,10 +49,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .hero .mainClaim{
-    font-family: "Big Shoulders Stencil", sans-serif;
-    color:aliceblue;
+    font-family: "Rockwell Nova", sans-serif;
+    color:#ffaa00;
     font-size: clamp(1rem, 12vw, 20rem);
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     line-height: 1em;
     text-align: center;
 }
@@ -148,7 +161,6 @@ section{
 {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
     background-size: cover;
     background-position: center;
 }
@@ -174,7 +186,7 @@ nav
 
 span
 {
-    color: #ea1538;
+    color: #ffaa00;
 }
 
 nav ul li
@@ -198,7 +210,7 @@ nav ul li a:hover
 button
 {
     border: none;
-    background: #ea1538;
+    background: #ffaa00;
     padding: 12px 30px;
     border-radius: 30px;
     color: white;
