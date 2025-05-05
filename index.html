@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
     <section class="landing">
         <div class="landing-content">
@@ -23,7 +24,7 @@
             </div>
     
             <div class="landing-bottom">
-                <!-- puedes meter algo aquí si quieres -->
+
             </div>
         </div>
     </section>
@@ -33,53 +34,31 @@
         <img src="img/spriteNaife&Diana.png">
     </section>
 
-    <section class="characters">
-        
-        <element class="characterSection" >
-
-            <img src="img/spriteNaife (2).png">
-                <a href="#NaifePage"></a>
-        </element>
-        
-        <element class="characterSection">
-            <img src="img/spriteDiana.png">
-            <a href="#DianaPage"></a>
-
-        </element>
-
-        <element class="characterSection">
-
-            <img src="img/spriteOxy.png">
-            
-        </element>
-
-        <element class="characterSection">
-            <img src="img/SpriteDai.png">
-        </element>
-
-        <element class="characterSection">
-            <img src="img/spriteTempus.png">
-        </element>
-
+    <section class="characterSection">
+        <img src="img/personajes.png" alt="Personajes" usemap="#characterMap">
     </section>
-
+    
+    <map name="characterMap">
+        <area shape="rect" coords="0,0,384,1080" href="#NaifePage" alt="Naife"> <!-- Blanco -->
+        <area shape="rect" coords="384,0,768,1080" href="#TempusPage" alt="Tempus"> <!-- Azul -->
+        <area shape="rect" coords="768,0,1152,1080" href="#DaiPage" alt="Dai"> <!-- Amarillo -->
+        <area shape="rect" coords="1152,0,1536,1080" href="#OxyPage" alt="Oxy"> <!-- Rojo -->
+        <area shape="rect" coords="1536,0,1920,1080" href="#DianaPage" alt="Diana"> <!-- Negro -->
+    </map>
+    
 
     <section class="video">
         <iframe src="https://www.youtube.com/embed/fk-KW7jUTBU?autoplay=1&loop=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </section>
-    
-
 
     <section class="team">
         <element class="AboutUs">
-            <img src="img/spriteNaife (2).png">
+            <img src="img/spriteNaife.png">
         </element>
-
 
         <element class="AboutUs">
-            <img src="img/spriteTempus (1).png">
+            <img src="img/spriteTempus.png">
         </element>
-
 
         <element class="AboutUs">
             <img src="img/SpriteDai.png" width="100%">
@@ -90,7 +69,7 @@
     <section class="naife" id="NaifePage">
 
         <element class="characterImage">
-            <img src="img/spriteNaife (2).png">
+            <img src="img/spriteNaife.png">
         </element>
         <element class="characterLore"></element>
     </section>
@@ -99,7 +78,7 @@
         <element class="characterLore"></element>
         
         <element class="characterImage">
-            <img src="img/spriteDiana (2).png">
+            <img src="img/spriteDiana.png">
         </element>
     
     </section>
@@ -107,7 +86,7 @@
     <section class="oxy" id="OxyPage">
 
         <element class="characterImage">
-            <img src="img/spriteOxy (4).png">
+            <img src="img/spriteOxy.png">
         </element>
 
         <element class="characterLore"></element>
@@ -124,7 +103,7 @@
 
     <section class="tempus" id="TempusPage">
         <element class="characterImage">
-            <img src="img/spriteTempus (1).png">
+            <img src="img/spriteTempus.png">
         </element>
         <element class="characterLore"></element>
     </section>
@@ -132,7 +111,7 @@
     <section class="download">
 
         <element>
-            
+
         </element>
         
     </section>

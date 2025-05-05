@@ -126,15 +126,28 @@ section {
 
 /* CHARACTER SECTIONS */
 .characterSection {
-    width: 100%;
-    height: 100%;
-    background-color: magenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; 
 }
 
-.characterImage {
-    width: 100%;
-    height: 100%;
-    background-color: magenta;
+.character {
+    flex: 0 0 auto; /* No se estira */
+    text-align: center;
+}
+
+.character img {
+    width: 400px; /* Antes 150px */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.characterSection img {
+    width: 100%;     
+    height: 100%;    
+    object-fit: cover;  
 }
 
 .characterLore {
@@ -171,12 +184,18 @@ section {
 }
 
 .game {
-    background-color: violet;
+    background: linear-gradient(to right, black 50.5%, white 49.5%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.characters {
-    background-color: blueviolet;
+
+.game img {
+    width: 945px;
+    height: auto;
 }
+
 
 .naife {
     background-color: white;
