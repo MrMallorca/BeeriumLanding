@@ -246,9 +246,22 @@ section {
 }
 
 .team {
-    background-color: cadetblue;
+    background-color: black;
 }
 
+.aboutUsNombre{
+    font-size: 40px;
+    letter-spacing: 15px;
+    margin-left: 100px;
+    color: white;
+}
+.aboutUsDescripcion{
+    font-size: 20px;
+    letter-spacing: 7px;
+    margin-left: 200px;
+
+    color: white;
+}
 .download{
     background-color: white;
 }
@@ -271,11 +284,11 @@ img {
     font-family: Arial, sans-serif;
 }
 
-.about-us h2 {
+/* .about-us h2 {
     font-size: 3em;
     color: #333;
     margin-bottom: 20px;
-}
+} */
 
 .about-us p {
     font-size: 1.2em;
