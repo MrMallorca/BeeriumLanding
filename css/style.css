@@ -198,22 +198,22 @@ section {
 
 
 .naife {
-    background-color: black;
+    background-color: #ffffff;
 }
 
 .diana {
-    background-color: white;
+    background-color: #000000;
 }
 
 .oxy {
-    background-color: black;
+    background-color: #8b0000;
 }
 
 .dai {
-    background-color: black;
+    background-color: #8f8f00;
 }
 .tempus {
-    background-color: black;
+    background-color: #002d7b;
 }
 .tituloPersonajes{
     display: flex;
